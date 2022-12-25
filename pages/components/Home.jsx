@@ -2,13 +2,13 @@ import {CalendarMonth, LocationOn, School} from '@mui/icons-material';
 import {button, content, header} from '../../styles/font';
 
 import Button from './Button';
+import Image from 'next/image';
 import Link from 'next/link';
 import buttonStyles from '../../styles/Button.module.scss';
 import contentList from '../assets/contents.json';
 import moment from 'moment';
+import profilePic from '../assets/my-photo.jpg';
 import styles from '../../styles/Home.module.scss';
-
-// import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -56,7 +56,9 @@ const Home = () => {
           </Button>
         </div>
       </div>
-      <div className={styles.rightPart} />
+      <div className={styles.rightPart}>
+        <Image src={profilePic} alt="myAva" className={styles.ava} />
+      </div>
     </div>
   );
 };
