@@ -1,0 +1,49 @@
+.flatButton {
+  padding: 11px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px outset #004445;
+  width: 20%;
+  background-color: var(--background-light);
+  margin-top: 3%;
+
+  &:hover {
+    border: none;
+    overflow: hidden;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      height: 70%;
+      width: 150%;
+      background: linear-gradient(to right, #6fb98f, #021c1e);
+      animation: buttonBorder 2s linear infinite;
+    }
+
+    &:after {
+      content: "";
+      background-color: var(--background-light);
+      position: absolute;
+      inset: 4px;
+    }
+  }
+
+  .flatButtonContent {
+    text-decoration: none;
+    background-color: none;
+    color: var(--foreground-dark-small);
+    z-index: 10;
+    position: relative;
+  }
+}
+
+@keyframes buttonBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
