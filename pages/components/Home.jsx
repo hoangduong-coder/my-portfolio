@@ -1,11 +1,14 @@
 import {CalendarMonth, LocationOn, School} from '@mui/icons-material';
-import {content, header} from '../../styles/font';
+import {button, content, header} from '../../styles/font';
 
 import Button from './Button';
-import Image from 'next/image';
+import Link from 'next/link';
+import buttonStyles from '../../styles/Button.module.scss';
 import contentList from '../assets/contents.json';
 import moment from 'moment';
 import styles from '../../styles/Home.module.scss';
+
+// import Image from 'next/image';
 
 const Home = () => {
   return (
@@ -41,7 +44,16 @@ const Home = () => {
           </li>
         </ul>
         <div>
-          <Button url="/dashboard/contact" content="CONTACT ME" />
+          <Button>
+            <Link
+              className={buttonStyles.flatButtonContent}
+              href="/dashboard/contact"
+            >
+              <p style={button.style}>
+                CONTACT ME
+              </p>
+            </Link>
+          </Button>
         </div>
       </div>
       <div className={styles.rightPart} />
