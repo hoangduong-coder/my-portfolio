@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   border: 4px outset #004445;
-  width: 20%;
+  width: fit-content;
   background-color: var(--background-light);
   margin-top: 3%;
   cursor: pointer;
@@ -44,6 +44,7 @@
     background: none;
     border: none;
     width: max-content;
+    cursor: pointer;
   }
 }
 

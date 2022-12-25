@@ -1,15 +1,21 @@
-import Home from './components/Home';
-import NavBar from './components/NavBar';
-import styles from '../styles/MainPage.module.css';
+import Head from "next/head";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import contentList from "../pages/assets/contents.json";
 
 const MainPage = () => {
   return (
-    <div>
-      <NavBar />
-      <div className={styles.layout}>
-        <Home />
+    <>
+      <Head>
+        <title>{contentList.title}</title>
+      </Head>
+      <div>
+        <NavBar />
+        <div className="layout">
+          <Home />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
