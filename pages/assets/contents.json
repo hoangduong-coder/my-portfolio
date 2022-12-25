@@ -1,15 +1,16 @@
 {
+  "title": "Howard's world",
   "home": {
     "subHeading": "Hi",
     "mainHeading": "I'm Hoang Duong",
     "location": "Helsinki, Finland",
     "education": "Vaasa University of Applied Sciences - Expected to graduate: May 2023",
     "availableDate": "",
-    "description": "Front-end/ Back-end/ Full-stack developer - Seeking Internship/ Entry-level positions "
+    "description": "4th year Software Engineering student\nFront-end/ Back-end/ Full-stack developer - Seeking Internship/ Entry-level positions "
   },
   "header": [
     { "url": "/dashboard/intro", "title": "About me" },
-    { "url": "/dashboard/portfolio", "title": "Portfolio" },
+    { "url": "/dashboard/experience", "title": "Experiences" },
     {
       "url": "https://drive.google.com/file/d/1SbrtisqnRal5gj2gld-z9qall-E9XpwU/view?usp=sharing",
       "title": "Resume"
