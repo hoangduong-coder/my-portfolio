@@ -56,11 +56,12 @@
     ]
   },
   "contact": {
-    "mainHeading": "Let's contact",
-    "description": "Let's get in touch! Don't hesitate to contact me using the form below or via email. I am open for any IT-related opportunities, especially Front-end or Back-end developer.",
+    "mainHeading": "Let's connect",
+    "description": "I am actively seeking a position as a Front-end/ Back-end/ Full-stack developer.\nDon't hesitate to contact me using the form below or via email.",
     "form": {
       "namePlaceholder": "Name",
       "emailPlaceholder": "Email",
+      "titlePlaceholder": "Title",
       "messPlaceholder": "Message"
     }
   }
