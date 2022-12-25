@@ -2,6 +2,7 @@ import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
+import Logo from '../assets/Logo';
 import content from '../assets/contents.json';
 import {navbar} from '../../styles/font';
 import styles from '../../styles/NavBar.module.scss';
@@ -10,8 +11,8 @@ const NavBar = () => {
   return (
     <div className={styles.navBar}>
       <div>
-        <Link href="/" className={styles.heading}>
-          <div>HD</div>
+        <Link href="/">
+          <Logo />
         </Link>
         {content.header.map ((li, index) => (
           <Link key={index} href={li.url} className={styles.heading}>
