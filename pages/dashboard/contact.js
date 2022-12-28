@@ -15,11 +15,11 @@ const Contact = () => {
       <div>
         <NavBar />
         <div className="layout">
+          <h2 style={header.style} className="subHeader">
+            {contentList.contact.mainHeading}
+          </h2>
           <div className={styles.contactContainer}>
             <div className={styles.contactLeftPart}>
-              <h2 style={header.style} className="subHeader">
-                {contentList.contact.mainHeading}
-              </h2>
               <div className={styles.contactSubheading}>
                 <p style={content.style} className="subContent">
                   {contentList.contact.description}

@@ -1,3 +1,5 @@
+import 'animate.css';
+
 import Head from "next/head";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
@@ -11,7 +13,7 @@ const MainPage = () => {
       </Head>
       <div>
         <NavBar />
-        <div className="layout">
+        <div className="animate__animated animate__fadeInUp layout">
           <Home />
         </div>
       </div>
