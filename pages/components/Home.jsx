@@ -12,7 +12,7 @@ import styles from '../../styles/Home.module.scss';
 
 const Home = () => {
   return (
-    <div className={styles.home}>
+    <div className={`animate__animated animate__fadeIn ${styles.home}`}>
       <div className={styles.leftPart}>
         <h3 style={header.style} className="subHeader">
           {contentList.home.subHeading}
