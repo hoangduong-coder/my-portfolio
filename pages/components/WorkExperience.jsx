@@ -4,10 +4,10 @@ import {content} from '../../styles/font';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
 import moment from 'moment/moment';
 
-const Project = ({info}) => {
+const WorkExperience = ({info}) => {
   return (
     <div>
-      <h3 style={info.style}>{info.title}</h3>
+      <h3 style={content.style}>{info.title}</h3>
       <p>
         {info.company !== undefined &&
           info.company !== null &&
@@ -20,13 +20,8 @@ const Project = ({info}) => {
           ? 'Present'
           : `${moment (info.endDate).format ('MMM YYYY')}`}
       </p>
-      <div>
-        <Link href={info.link.github}>
-          <FontAwesomeIcon icon={faGithub} color="#f0f8ff" />
-        </Link>
-      </div>
     </div>
   );
 };
 
-export default Project;
+export default WorkExperience;

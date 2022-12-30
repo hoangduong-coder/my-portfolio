@@ -25,33 +25,56 @@
     "mainHeading": "Work experiences",
     "experience": [
       {
-        "time": "March 2022 - August 2022",
+        "startDate": "03/02/2022",
+        "endDate": "08/31/2022",
+        "type": "INTERNSHIP",
         "title": "Front-end developer",
         "company": "Share a Chair",
         "location": "Berlin, Germany",
         "skills": ["TypeScript", "Next.JS", "React", "CSS", "Redux"]
-      }
-    ],
-    "project": [
+      },
       {
-        "time": "Dec 2022 - Present",
+        "startDate": "12/15/2022",
+        "endDate": "Present",
+        "type": "PROJECT",
         "title": "Portfolio",
-        "location": "Finland",
-        "skills": ["JavaScript", "Next.JS", "React", "CSS", "SASS"],
-        "description": "",
+        "location": "Helsinki, Finland",
+        "skills": ["JavaScript", "Next.JS", "React", "CSS", "Sass"],
+        "description": "My personal portfolio",
         "link": {
           "github": "https://github.com/hoangduong-coder/material-chatbot-frontend"
         }
       },
       {
-        "time": "September 2022 - December 2022",
-        "title": "Portfolio",
+        "startDate": "09/09/2022",
+        "endDate": "12/18/2022",
+        "type": "PROJECT",
+        "title": "Material chatbot",
         "location": "Vaasa, Finland",
         "skills": ["TypeScript", "React", "CSS", "Redux", "NodeJS", "Azure"],
         "description": "A chatbot solution supports users in getting information about the components and materials used",
         "link": {
           "product": "https://material-chatbot-vnteam.vercel.app/",
           "github": "https://github.com/hoangduong-coder/material-chatbot-frontend"
+        }
+      },
+      {
+        "startDate": "10/21/2021",
+        "endDate": "3/21/2022",
+        "type": "PROJECT",
+        "title": "Facetergram",
+        "location": "Vaasa, Finland",
+        "skills": [
+          "JavaScript",
+          "React",
+          "CSS",
+          "NodeJS",
+          "MongoDB",
+          "Express"
+        ],
+        "description": "A basic social media website",
+        "link": {
+          "github": "https://github.com/hoangduong-coder/Facetergram-social-media"
         }
       }
     ]
