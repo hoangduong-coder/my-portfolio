@@ -9,10 +9,10 @@
     "description": "4th year Software Engineering student\nFront-end/ Back-end/ Full-stack developer - Seeking Internship/ Entry-level positions "
   },
   "header": [
-    { "url": "/dashboard/intro", "title": "About me" },
-    { "url": "/dashboard/experience", "title": "Experiences" },
+    { "url": "#aboutme", "title": "About me" },
+    { "url": "#portfolio", "title": "Experiences" },
     {
-      "url": "https://drive.google.com/file/d/1SbrtisqnRal5gj2gld-z9qall-E9XpwU/view?usp=sharing",
+      "url": "https://drive.google.com/file/d/1OUMsNLKhKrWuJKPEpAsl7gIvLUcgggmF/view?usp=sharing",
       "title": "Resume"
     }
   ],
@@ -23,12 +23,13 @@
   },
   "portfolio": {
     "mainHeading": "Work experiences",
+    "mainHeading2": "Projects",
     "experience": [
       {
         "startDate": "03/02/2022",
         "endDate": "08/31/2022",
         "type": "INTERNSHIP",
-        "title": "Front-end developer",
+        "title": "Front-end developer Intern",
         "company": "Share a Chair",
         "location": "Berlin, Germany",
         "skills": ["TypeScript", "Next.JS", "React", "CSS", "Redux"]
