@@ -1,9 +1,8 @@
-import Button from '../components/Button';
-import buttonStyles from '../../styles/Button.module.scss';
-import {content} from '../../styles/font';
-import contentList from '../assets/contents.json';
-import handler from '../api/form';
-import styles from '../../styles/Form.module.scss';
+import Button from './Button';
+import buttonStyles from '/styles/Button.module.scss';
+import {content} from '/styles/font';
+import contentList from '/pages/assets/contents.json';
+import styles from '/styles/Form.module.scss';
 import {useRef} from 'react';
 
 const Form = () => {
@@ -11,7 +10,6 @@ const Form = () => {
 
   const sendEmail = e => {
     e.preventDefault ();
-    handler (form.current);
   };
   return (
     <div className={styles.contactForm}>

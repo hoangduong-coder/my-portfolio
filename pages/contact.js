@@ -1,10 +1,10 @@
-import { content, header } from "../../styles/font";
+import { content, header } from "../styles/font";
 
-import Form from "../components/Form";
+import Form from "./components/widget/Form";
 import Head from "next/head";
-import NavBar from "../components/NavBar";
-import contentList from "../assets/contents.json";
-import styles from "../../styles/Contact.module.scss";
+import NavBar from "./components/widget/NavBar";
+import contentList from "./assets/contents.json";
+import styles from "../styles/Contact.module.scss";
 
 const Contact = () => {
   return (

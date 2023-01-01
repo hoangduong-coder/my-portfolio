@@ -1,8 +1,10 @@
 import 'animate.css';
 
+import AboutMe from './components/Aboutme';
 import Head from "next/head";
 import Home from "./components/Home";
-import NavBar from "./components/NavBar";
+import NavBar from "/pages/components/widget/NavBar.jsx"
+import Portfolio from './components/portfolio/Portfolio';
 import contentList from "../pages/assets/contents.json";
 
 const MainPage = () => {
@@ -15,6 +17,8 @@ const MainPage = () => {
         <NavBar />
         <div className="animate__animated animate__fadeInUp layout">
           <Home />
+          <AboutMe/>
+          <Portfolio/>
         </div>
       </div>
     </>

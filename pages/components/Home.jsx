@@ -1,7 +1,7 @@
 import {CalendarMonth, LocationOn, School} from '@mui/icons-material';
 import {button, content, header} from '../../styles/font';
 
-import Button from './Button';
+import Button from './widget/Button';
 import Image from 'next/image';
 import Link from 'next/link';
 import buttonStyles from '../../styles/Button.module.scss';

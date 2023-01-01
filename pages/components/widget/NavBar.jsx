@@ -2,10 +2,10 @@ import {faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Link from 'next/link';
-import Logo from '../assets/Logo';
-import content from '../assets/contents.json';
-import {navbar} from '../../styles/font';
-import styles from '../../styles/NavBar.module.scss';
+import Logo from '/pages/assets/Logo';
+import content from '/pages/assets/contents.json';
+import {navbar} from '/styles/font.js';
+import styles from '/styles/NavBar.module.scss';
 
 const NavBar = () => {
   return (
@@ -23,7 +23,7 @@ const NavBar = () => {
         ))}
       </div>
       <div>
-        <Link href="/dashboard/contact" className={styles.heading}>
+        <Link href="/contact" className={styles.heading}>
           <p style={navbar.style}>Contact</p>
         </Link>
         <a
