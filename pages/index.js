@@ -15,7 +15,7 @@ const MainPage = () => {
       </Head>
       <div>
         <NavBar />
-        <div className="animate__animated animate__fadeInUp layout">
+        <div className="layout">
           <Home />
           <AboutMe/>
           <Portfolio/>

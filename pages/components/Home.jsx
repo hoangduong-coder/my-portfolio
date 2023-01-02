@@ -2,17 +2,15 @@ import {CalendarMonth, LocationOn, School} from '@mui/icons-material';
 import {button, content, header} from '../../styles/font';
 
 import Button from './widget/Button';
-import Image from 'next/image';
 import Link from 'next/link';
 import buttonStyles from '../../styles/Button.module.scss';
 import contentList from '../assets/contents.json';
 import moment from 'moment';
-import profilePic from '../assets/my-photo.jpg';
 import styles from '../../styles/Home.module.scss';
 
 const Home = () => {
   return (
-    <div className={`animate__animated animate__fadeIn ${styles.home}`}>
+    <div className={`animate__animated animate__fadeInUp ${styles.home}`}>
       <div className={styles.leftPart}>
         <h3 style={header.style} className="subHeader">
           {contentList.home.subHeading}
@@ -55,9 +53,6 @@ const Home = () => {
             </Link>
           </Button>
         </div>
-      </div>
-      <div className={styles.rightPart}>
-        <Image src={profilePic} alt="myAva" className={styles.ava} />
       </div>
     </div>
   );

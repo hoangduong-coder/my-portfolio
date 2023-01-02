@@ -54,18 +54,18 @@ a {
   font-size: var(--content-font-size);
   color: var(--foreground-dark-small);
   white-space: pre-wrap;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .subContent {
   font-size: var(--sub-content-font-size);
   white-space: pre-wrap;
-  line-height: 1.6;
+  line-height: 1.4;
 }
 
 .layout {
-  margin-top: 6%;
   padding: 30px 60px;
+  margin-top: 6%;
 }
 
 @keyframes borderEffect {

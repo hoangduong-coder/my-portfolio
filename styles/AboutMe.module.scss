@@ -1,0 +1,29 @@
+.aboutMe {
+  display: flex;
+  height: 80vh;
+  margin-top: 6%;
+  padding: 2% 0;
+  scroll-margin-top: 15vh;
+
+  .leftPart {
+    flex-grow: 4;
+    white-space: pre-wrap;
+    padding-right: 2%;
+
+    :nth-child(n) {
+      margin-bottom: 1%;
+    }
+  }
+
+  .rightPart {
+    display: flex;
+    flex-grow: 3;
+    justify-content: center;
+    align-items: center;
+
+    .ava {
+      height: 70%;
+      width: fit-content;
+    }
+  }
+}
