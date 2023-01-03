@@ -6,11 +6,12 @@
     "location": "Helsinki, Finland",
     "education": "Vaasa University of Applied Sciences - Expected to graduate: May 2023",
     "availableDate": "",
-    "description": "4th year Software Engineering student\nFront-end/ Back-end/ Full-stack developer - Seeking Internship/ Entry-level positions "
+    "description": "Let's create a small idea and upgrade it to a giant product.",
+    "target": "Seeking for a Junior Front-end/Back-end/Full-stack developer position"
   },
   "header": [
-    { "url": "#aboutme", "title": "About me" },
-    { "url": "#portfolio", "title": "Experiences" },
+    { "url": "#about", "title": "About me" },
+    { "url": "#project", "title": "Projects" },
     {
       "url": "https://drive.google.com/file/d/1OUMsNLKhKrWuJKPEpAsl7gIvLUcgggmF/view?usp=sharing",
       "title": "Resume"
@@ -18,8 +19,63 @@
   ],
   "aboutMe": {
     "mainHeading": "Nice to meet you!",
-    "introduction": "My name is Hoang (you can call me Howard instead). I love solving logical problem (including coding and mathematics).\nI have been studying and working professionally for two years as a Front-end developer and Full-stack developer",
-    "Skills": []
+    "description": [
+      "I am a Vietnamese student residing in Helsinki, Finland. I love solving logical problems, such as Programming and Mathematics. I'm a quite perfectionist who contains confidence, curiousness, and a hard-working spirit.",
+      "My journey as a Full-stack developer began 1 year ago, when I started my first internship for a start-up in Berlin. Currently, I am finalizing my studies and developing interesting Full-stack applications."
+    ],
+    "skills": {
+      "mainHeading": "My skills",
+      "certificate": [
+        {
+          "status": "ONGOING",
+          "title": "Data Analysis with Python",
+          "organization": "University of Helsinki",
+          "url": ["https://courses.mooc.fi/org/uh-cs/courses/dap-22"]
+        },
+        {
+          "status": "FINISHED",
+          "title": "Full-stack Open 2021",
+          "organization": "University of Helsinki",
+          "url": [
+            "https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/4c89741c930cef7fb0caf15418251191",
+            "https://studies.cs.helsinki.fi/stats/api/certificate/fs-typescript/en/66a0bd850b62c721853d68a4b81c3ddc"
+          ]
+        }
+      ],
+      "details": [
+        {
+          "title": "Language",
+          "skills": ["ES6+ JavaScript/TypeScript", "Python", "Java"]
+        },
+        {
+          "title": "Front-end",
+          "skills": [
+            "React",
+            "Redux",
+            "Jotai",
+            "Zustand",
+            "Next.JS",
+            "HTML",
+            "CSS",
+            "Sass"
+          ]
+        },
+        {
+          "title": "Back-end server",
+          "skills": [
+            "NodeJS",
+            "Express",
+            "REST APIs",
+            "MongoDB",
+            "MySQL",
+            "GraphQL",
+            "JSON",
+            "AWS",
+            "Azure"
+          ]
+        }
+      ]
+    }
   },
   "portfolio": {
     "mainHeading": "Work experiences",
