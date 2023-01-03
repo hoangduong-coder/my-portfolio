@@ -6,7 +6,7 @@
   z-index: 1;
   position: fixed;
   width: 100%;
-  padding: 20px 40px;
+  padding: 3vh 6ch;
   top: 0;
 
   :nth-child(n) {
@@ -21,7 +21,7 @@
     text-decoration: none;
     color: var(--foreground-light);
     padding: 5;
-    margin: 0 20px;
+    margin: 0 2ch;
 
     &:after {
       content: "";
@@ -44,7 +44,7 @@
 
   .headingIcons {
     padding: 5;
-    margin: 0 20px;
+    margin: 0 2ch;
     text-decoration: none;
   }
 }
@@ -55,7 +55,6 @@
   align-items: center;
   border: 2px solid var(--foreground-light);
   padding: 2px;
-  margin: 0 20px;
 }
 
 .logoContent {
