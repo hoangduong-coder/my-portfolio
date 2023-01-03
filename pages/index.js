@@ -1,6 +1,7 @@
 import 'animate.css';
 
-import AboutMe from './components/Aboutme';
+import About from "./components/about/About"
+import Contact from "./components/contact/Contact"
 import Head from "next/head";
 import Home from "./components/Home";
 import NavBar from "/pages/components/widget/NavBar.jsx"
@@ -17,8 +18,9 @@ const MainPage = () => {
         <NavBar />
         <div className="layout">
           <Home />
-          <AboutMe/>
+          <About/>
           <Portfolio/>
+          <Contact/>
         </div>
       </div>
     </>

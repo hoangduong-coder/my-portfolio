@@ -1,11 +1,13 @@
-import {CalendarMonth, LocationOn, School} from '@mui/icons-material';
+import {CalendarMonth, LocationOn, School, Work} from '@mui/icons-material';
 import {button, content, header} from '../../styles/font';
 
-import Button from './widget/Button';
+import Button from '/pages/components/widget/Button';
+import Image from 'next/image';
 import Link from 'next/link';
-import buttonStyles from '../../styles/Button.module.scss';
+import buttonStyles from '/styles/Button.module.scss';
 import contentList from '../assets/contents.json';
 import moment from 'moment';
+import profilePic from '/pages/assets/my-photo.jpg';
 import styles from '../../styles/Home.module.scss';
 
 const Home = () => {
@@ -23,15 +25,15 @@ const Home = () => {
         </h3>
         <ul className={styles.basicInfo}>
           <li>
-            <LocationOn />
+            <Work />
             <span style={content.style} className="subContent">
-              {contentList.home.location}
+              {contentList.home.target}
             </span>
           </li>
           <li>
-            <School />
+            <LocationOn />
             <span style={content.style} className="subContent">
-              {contentList.home.education}
+              {contentList.home.location}
             </span>
           </li>
           <li>
@@ -40,19 +42,23 @@ const Home = () => {
               Available date: {`${moment ().format ('DD.MM.yyyy')}`}
             </span>
           </li>
+          <li>
+            <School />
+            <span style={content.style} className="subContent">
+              {contentList.home.education}
+            </span>
+          </li>
         </ul>
-        <div>
-          <Button>
-            <Link
-              className={buttonStyles.flatButtonContent}
-              href="/dashboard/contact"
-            >
-              <p style={button.style}>
-                CONTACT ME
-              </p>
-            </Link>
-          </Button>
-        </div>
+        <Button>
+          <Link className={buttonStyles.flatButtonContent} href="#about">
+            <p style={button.style}>
+              MORE ABOUT ME
+            </p>
+          </Link>
+        </Button>
+      </div>
+      <div className={styles.rightPart}>
+        <Image src={profilePic} alt="myAva" className={styles.ava} />
       </div>
     </div>
   );
